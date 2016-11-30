@@ -41,7 +41,7 @@ class TestController extends Controller
     public function seconds()
     {
         $today = Carbon::now('America/Lima');
-        dd('Miluska Geraldine, Burgos Gonzales eres un chikita feita casi bonita y gordita XD XD :v')
+        dd('Miluska Geraldine, Burgos Gonzales eres un chikita feita casi bonita y gordita XD XD :v');
         dd(strtotime($today) - strtotime('TODAY'));
     }
 }
